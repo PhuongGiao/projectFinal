@@ -1588,7 +1588,7 @@ header{
                 .temp{
                     width:25%;
                     .post{
-                        width:100%;
+                        margin: 15px;
                         .time{
                             display: flex;
                             margin-top:5%;
@@ -1620,6 +1620,7 @@ header{
                             }
                         }
                         a.lasttitle{
+                            display: block;
                             overflow: hidden;
                             &:hover{
                                 img{
@@ -1629,8 +1630,7 @@ header{
                             img{
                                 transition: all 0.5s;   
                                 display: block;
-                                width:90%;
-                                
+                                width:100%;
                             }
                             p{
                                 width:100%;
